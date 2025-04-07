@@ -1,0 +1,77 @@
+/* Background Video */
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+  }
+  
+  /* Main Container */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00f0ff88;
+    max-width: 400px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background: #00f0ff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #00c4d4;
+  }
+  
+  #expression, #result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    word-break: break-word;
+  }
+
+  .footer {
+    margin-top: 40px;
+    color: #00f0ff;
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .footer span {
+    font-weight: bold;
+    color: #00ffe1;
+  }
+  

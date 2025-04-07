@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Voice Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.min.js"></script>
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>🤖 AI Voice Calculator</h1>
+    <button onclick="startListening()">🎤 Speak Now</button>
+    <div id="expression">Your expression will appear here</div>
+    <div id="result">Result: --</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<!-- Footer -->
+<footer class="footer">
+  <p>👨‍💻 Developed by <span>Rayyan Khan</span></p>
+</footer>
+
+</html>
